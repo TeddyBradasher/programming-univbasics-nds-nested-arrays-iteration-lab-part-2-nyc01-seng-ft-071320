@@ -6,7 +6,8 @@ max_value = -1
   while row_index < src.count do
     element_index = 0
     while element_index < src[row_index].count do
-      if rc[row_index][element_index].even?s
+      if max_value < array[count]
+      max_value = array[count]
         p src[row_index][element_index]
       end
       element_index += 1
